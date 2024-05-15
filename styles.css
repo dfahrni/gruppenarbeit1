@@ -85,6 +85,29 @@ footer {
 
 .button img {
     vertical-align: middle;
-    width: 20px;
-    height: 20px;
+    width: 20px;  /* Set a fixed width */
+    height: 20px; /* Set a fixed height */
+}
+
+/* Additional styles to match the uploaded design */
+.button-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-container a:hover {
+    background-color: #222;
+}
+
+.button-container .pink {
+    background-color: #FF69B4;
+}
+
+.button-container .pink:hover {
+    background-color: #FF1493;
 }
