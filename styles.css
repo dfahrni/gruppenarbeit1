@@ -111,3 +111,8 @@ footer {
 .button-container .pink:hover {
     background-color: #FF1493;
 }
+
+.button-container img {
+    width: 24px;
+    height: 24px;
+}
