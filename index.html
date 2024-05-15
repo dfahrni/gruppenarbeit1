@@ -44,7 +44,6 @@
             margin-top: 20px;
         }
         .button {
-            background-color: #007BFF;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -57,8 +56,22 @@
             border-radius: 4px;
             transition: background-color 0.3s;
         }
-        .button:hover {
-            background-color: #0056b3;
+        .button.github {
+            background-color: #333;
+        }
+        .button.github:hover {
+            background-color: #222;
+        }
+        .button.pink {
+            background-color: #FF69B4;
+        }
+        .button.pink:hover {
+            background-color: #FF1493;
+        }
+        .button img {
+            vertical-align: middle;
+            width: 20px;
+            height: 20px;
         }
     </style>
 </head>
@@ -71,14 +84,16 @@
         <h2>Infos</h2>
         <p>Alle Informationen dieser Webseite sind unter folgendem Link zu finden:</p>
         <div class="button-container">
-            <a href="https://github.com/dfahrni/gruppenarbeit1" class="button">Hier</a>
+            <a href="https://github.com/dfahrni/gruppenarbeit1" class="button github">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo">
+            </a>
         </div>
     </div>
     <div class="content">
         <h2>Interesse an der Erstellung einer Webseite?</h2>
         <p>Falls du Interesse hast, eine solche Webseite zu erstellen, drücke auf den folgenden Link und melde dich für die Weiterbildung bei der TEKO an!</p>
         <div class="button-container">
-            <a href="https://www.teko.ch/technik/hoehere-fachschule/informatik-systemtechnik/4656#open-accordions=description&" class="button">Hier</a>
+            <a href="https://www.teko.ch/technik/hoehere-fachschule/informatik-systemtechnik/4656#open-accordions=description&" class="button pink">Hier</a>
         </div>
     </div>
 </main>
