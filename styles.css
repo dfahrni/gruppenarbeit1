@@ -74,6 +74,6 @@ footer {
 
 .button img {
     vertical-align: middle;
-    width: 20px;
-    height: 20px;
+    width: 20px;  /* Set a fixed width */
+    height: 20px; /* Set a fixed height */
 }
