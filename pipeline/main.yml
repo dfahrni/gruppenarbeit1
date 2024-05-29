@@ -1,0 +1,6 @@
+on: [push]
+name: Website_SSG_Workflow
+
+jobs:
+  build-and-deploy:
+    steps:
